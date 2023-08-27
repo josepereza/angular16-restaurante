@@ -1,1 +1,22 @@
-<p>menupage works!</p>
+<div class="container my-5">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+      <div class="col-lg-4 p-3 p-lg-5 pt-lg-3">
+        <img class="rounded-lg-3" src="{{menu[0].foodImg}}" alt="" width="100%">
+        <h1 class="display-5 fw-bold lh-1 text-white">{{menu[0].foodName}}</h1>
+        <p class="lead text-white">{{menu[0].foodDetails}}</p>
+        <p class="text-white">PRICE :{{menu[0].foodPrice | currency:'EUR'}}</p>
+        <a class="btn btn-outline-success btn-lg px-4 mt-3" routerLink="/menu">Back</a> 
+      </div>
+      <div class="col-lg-7 offset-lg-1 p-4 overflow-hidden shadow-lg text-white">
+        <h1>Enter Your Details</h1>
+        <form>
+
+            <input type="text" class="form-control" placeholder="Enter Your Full Name" />
+            <input type="text" class="form-control" placeholder="Enter Your Mobile" />
+            <textarea class="form-control" placeholder="Enter Your Address"></textarea>
+            <button class="btn btn-outline-success btn-lg px-4 mt-3">Place Order</button>
+
+        </form>
+      </div>
+    </div>
+  </div>
