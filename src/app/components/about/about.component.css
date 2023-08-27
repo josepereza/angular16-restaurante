@@ -1,0 +1,11 @@
+.micontainer{
+    min-height: 100%;
+    padding: 180px;
+}
+
+@media only screen and (max-width: 800px) {
+    .micontainer{
+        min-height: 100%;
+        padding: 40px;
+    }
+}

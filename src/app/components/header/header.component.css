@@ -1,0 +1,85 @@
+.banner
+{
+  
+    top: 0px;
+    left: 0px;
+    background-image: url('../../../assets/images/comida.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(50%);
+    filter:contrast(70%);
+    filter:saturate(30%)
+
+}
+.content
+{
+    top: 60%;
+    left: 20%;
+    position: absolute;
+}
+.content h1 
+{
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+  
+}
+.content a 
+{
+    text-decoration: none;
+    background-color: #fff;
+    color: var(--primary-color);
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.content a:hover 
+{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    .content
+    {
+        top: 40%;
+        left: 20%;
+        position: absolute;
+    }
+    .content h1 
+{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+  
+}
+
+.banner
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../assets/images/comida.jpg');
+   
+    }
+  }
+
+  @media only screen and (max-height: 800px) {
+    .content
+    {
+        top: 20%;
+        left: 20%;
+        position: absolute;
+    }
+    .content h1 
+{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+  
+}
+
+.banner
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../assets/images/comida.jpg');
+   
+    }
+  }

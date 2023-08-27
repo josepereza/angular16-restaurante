@@ -1,0 +1,26 @@
+.navbar{
+  
+  
+   
+}
+a{
+    color: aliceblue !important;
+}
+
+
+.hdr {
+    
+    background-color: transparent;
+    transition-duration: 1.5s;
+
+  }
+  
+  .hdrScroll {
+    padding:20px;
+    background-color:var(--primary-color);
+    transition-duration: 1.5s;
+
+
+  }
+  
+  
